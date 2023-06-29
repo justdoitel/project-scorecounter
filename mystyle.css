@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;  
+    max-height: -webkit-fill-available;
+    background-color:  #3aafa9;
+}
+.container {
+    align-self: center;
+    width: 50%;
+    border: 1px solid rgba(61, 25, 25, 0.411);
+    border-radius: 0.7em 0.7em 0 0;
+    background-color: white;
+    border-color: #3aafa9;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 340px) {
+    .container {
+        width: 100%;
+    }
+}
+
+img{
+    width: 100%;
+    aspect-ratio: 1.505;
+    border-radius: 0.6em 0.6em 0 0;
+}
+
+
+
+h1 {
+    border-bottom: 1px grey solid;
+    padding: 0.5em 0;
+    margin: 0 0 1em 0;
+    text-align: center;
+    font-size: 1em;
+}
+
+#score {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 900;
+}
+
+p{
+    margin: 0;
+    text-align: center;
+}
+
+#lilinfo {
+    font-size: small;
+    margin-bottom: 1em;
+}
+
+#limit {
+    display: flex;
+    justify-content: center;
+}
+
+#winlimit {
+    margin-left: 5px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    flex-grow: 1;
+    border-radius: 0;
+    padding: 0.5em 0;
+    height: 100%;
+    margin-top: 1em;
+}
+
+#onebtn{
+    background-color: #28a745;
+    font-weight: bolder;
+    border-color: #28a745;
+
+   
+}
+
+#twobtn{
+    background-color: #ffc107;
+    font-weight: bolder;
+    border-color: #ffc107;
+
+    
+}
+
+#reset{
+    background-color: #dc3545;
+    font-weight: bolder;
+    border-color: #dc3545;
+
+    
+}
+
+.winner{
+    color: red;
+}

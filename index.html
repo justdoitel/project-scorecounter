@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <img src="Ping_Pong_Post.jpg" alt="ping-pong image">
+        <h1>Ping Pong Score Keeper</h1>
+        <p id="score"><span id="p1">0</span>-<span id="p2">0</span></p>
+        <p id = "lilinfo">use the buttons below to keep a score</p>
+        <form id="limit">
+            <label for = "winlimit">Playing to: </label>
+            <input type="number" name="winlimit" id="winlimit" required>
+            <button id = "lockbtn">lock in</button>
+        </form>
+        <div class="buttons">
+            <button id="onebtn">+1 Player One</button>
+            <button id="twobtn">+1 Player Two</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
