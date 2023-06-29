@@ -64,7 +64,7 @@ p{
 }
 
 #winlimit {
-    margin-left: 5px;
+    margin: 0 5px;
 }
 
 .buttons {
@@ -83,24 +83,20 @@ p{
     background-color: #28a745;
     font-weight: bolder;
     border-color: #28a745;
-
-   
+    border-left: none;
 }
 
 #twobtn{
     background-color: #ffc107;
     font-weight: bolder;
     border-color: #ffc107;
-
-    
 }
 
 #reset{
     background-color: #dc3545;
     font-weight: bolder;
     border-color: #dc3545;
-
-    
+    border-right: none;
 }
 
 .winner{
