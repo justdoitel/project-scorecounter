@@ -17,16 +17,20 @@ body{
     border-color: #3aafa9;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 666px) {
     .container {
         width: 90%;
     }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 365px) {
     .container {
         width: 100%;
     }
+    body {
+        margin: 0;
+    }
+    
 }
 
 @media (max-width: 300px) {
@@ -34,6 +38,9 @@ body{
         width: 100%;
         min-width: 100vw; 
         width: 100vw; 
+    }
+    body {
+        margin: 0
     }
 }
 
@@ -113,4 +120,13 @@ p{
 
 .winner{
     color: red;
+}
+
+button {
+    touch-action: manipulation;
+}
+
+input {
+    font-size: 16px;
+    width: 30%;
 }
