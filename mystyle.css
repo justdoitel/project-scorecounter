@@ -1,6 +1,5 @@
 html,body {
-    min-height: 100vh;  
-    height: 100vh;  
+    height: 100vh; 
 }
 
 body{
@@ -29,6 +28,15 @@ body{
         width: 100%;
     }
 }
+
+@media (max-width: 300px) {
+    .container {
+        width: 100%;
+        min-width: 100vw; 
+        width: 100vw; 
+    }
+}
+
 
 img{
     width: 100%;
